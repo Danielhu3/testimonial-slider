@@ -1,26 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import  Slider  from './components/slider/';
+import GlobalStyle from './styles/global';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <GlobalStyle />
+      <Slider></Slider>
     </div>
   );
 }
 
 export default App;
+/*
+
+  Slider
+    Informations
+      Button
+      Text
+      Photo
+      Name
+      Office
+
+  O array com as informações vai ser criado dentro do Informations
+  O State que controla qual foto será exibida será criado dentro do Slider, mas, será manipulado dentro do Button (provavelmente)
+
+  */
