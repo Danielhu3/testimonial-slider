@@ -1,4 +1,5 @@
 import React from 'react'
+import { Information } from './style'
 const testimonialList = [
   {
     id: 0,
@@ -17,7 +18,9 @@ const testimonialList = [
 
 const index = () => {
   return (
-    <div>index</div>
+    <Information>
+      
+    </Information>
   )
 }
 
