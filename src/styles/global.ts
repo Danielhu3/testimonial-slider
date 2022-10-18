@@ -12,7 +12,7 @@ export default createGlobalStyle`
         font-size: 62.5%;
     }
     body{
-        font-size: 3.2rem;
+        font-size: 2rem;
         font-weight: 300;
         background: white;
     }
