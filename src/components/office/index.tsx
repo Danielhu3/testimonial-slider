@@ -1,8 +1,12 @@
 import React from 'react'
+import { Office } from './style'
 
-const index = () => {
+type Props = {
+  children: string;
+}
+const index = ({children}: Props) => {
   return (
-    <div>index</div>
+    <Office>{children}</Office>
   )
 }
 

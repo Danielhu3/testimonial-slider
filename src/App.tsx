@@ -23,7 +23,7 @@ export default App;
       Name
       Office
 
-  O array com as informações vai ser criado dentro do Informations
+  O array com as informações vai ser criado dentro do Informations - FEITO
   O State que controla qual foto será exibida será criado dentro do Slider, mas, será manipulado dentro do Button (provavelmente)
 
   */

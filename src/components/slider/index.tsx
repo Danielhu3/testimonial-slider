@@ -1,10 +1,15 @@
 import React from 'react'
+import Information  from '../information/';
 import { Slider } from './style'
 
-const index = () => {
+
+const Index = () => {
+  const [actualSlider, setActualSlider] = React.useState(0);
   return (
-    <Slider />
+    <Slider>
+      <Information actualSlider = {actualSlider} setActualSlider ={setActualSlider}/>
+    </Slider>
   )
 }
 
-export default index
+export default Index
