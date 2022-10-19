@@ -52,7 +52,8 @@ const index = ({actualSlider, setActualSlider}: Props) => {
           <Text>{sliderId.text}</Text>
           <Name>{sliderId.name}</Name>
           <Office>{sliderId.office}</Office>
-          <Button setActualSlider={setActualSlider}/>
+          <Button setActualSlider={setActualSlider} actualSlider={actualSlider} operation={'previous'} limit={testimonialList.length}/>
+          <Button setActualSlider={setActualSlider} actualSlider={actualSlider} operation={'next'} limit={testimonialList.length}/>
         </Information>
       )
     }
