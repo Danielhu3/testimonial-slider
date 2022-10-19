@@ -17,7 +17,7 @@ export default createGlobalStyle`
         background: white;
     }
     .App{
-        min-height: 100vh;
+        height: 100vh;
        display: flex;
        justify-content: center;
        align-items: center;
@@ -25,8 +25,8 @@ export default createGlobalStyle`
        background: url(${curve});
        background-repeat: no-repeat;
        background-position-y:100%;
-       
-       //padding: 10rem;
+
+       padding: 5rem;
        
     }
 `
