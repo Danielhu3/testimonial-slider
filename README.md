@@ -12,6 +12,10 @@ npm install @types/styled-components -D
 # TODO
 - slider animation
 
+# Learned 
+- I have some trouble to show reactive photos, so use require to get the photo url ant pass use it o image src
+<img src='src/screenshots/reactive-image.png'>
+
 # Frontend Mentor - Coding bootcamp testimonials slider
 
 ![Design preview for the Coding bootcamp testimonials slider coding challenge](./design/desktop-preview.jpg)

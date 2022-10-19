@@ -1,9 +1,15 @@
 import React from 'react'
 import { Photo } from './style'
 
-const index = () => {
+
+type Props = {
+  photo:string;
+}
+
+const index = ({photo}:Props) => {
+  const sliderPhoto = require(`../../images/${photo}.jpg`)
   return (
-    <Photo></Photo>
+    <Photo src={String(sliderPhoto)}></Photo>
   )
 }
 

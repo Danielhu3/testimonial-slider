@@ -3,6 +3,7 @@ import Button from '../button/';
 import ButtonGroup  from '../buttonGroup/';
 import Name  from '../name/';
 import Office  from '../office/';
+import Photo  from '../photo/';
 import Text  from '../text/';
 import { Information } from './style'
 const testimonialList: List[] = [
@@ -53,6 +54,7 @@ const index = ({actualSlider, setActualSlider}: Props) => {
           <Text>{sliderId.text}</Text>
           <Name>{sliderId.name}</Name>
           <Office>{sliderId.office}</Office>
+          <Photo photo={sliderId.photo} />
           <ButtonGroup>
             <Button setActualSlider={setActualSlider} actualSlider={actualSlider} operation={'previous'} limit={testimonialList.length}/>
             <Button setActualSlider={setActualSlider} actualSlider={actualSlider} operation={'next'} limit={testimonialList.length}/>
