@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../button/';
+import ButtonGroup  from '../buttonGroup/';
 import Name  from '../name/';
 import Office  from '../office/';
 import Text  from '../text/';
@@ -52,8 +53,11 @@ const index = ({actualSlider, setActualSlider}: Props) => {
           <Text>{sliderId.text}</Text>
           <Name>{sliderId.name}</Name>
           <Office>{sliderId.office}</Office>
-          <Button setActualSlider={setActualSlider} actualSlider={actualSlider} operation={'previous'} limit={testimonialList.length}/>
-          <Button setActualSlider={setActualSlider} actualSlider={actualSlider} operation={'next'} limit={testimonialList.length}/>
+          <ButtonGroup>
+            <Button setActualSlider={setActualSlider} actualSlider={actualSlider} operation={'previous'} limit={testimonialList.length}/>
+            <Button setActualSlider={setActualSlider} actualSlider={actualSlider} operation={'next'} limit={testimonialList.length}/>
+          </ButtonGroup>
+          
         </Information>
       )
     }

@@ -8,6 +8,10 @@ npm install styled-components
 Styled components definitions for typescript
 npm install @types/styled-components -D
 
+
+# TODO
+- slider animation
+
 # Frontend Mentor - Coding bootcamp testimonials slider
 
 ![Design preview for the Coding bootcamp testimonials slider coding challenge](./design/desktop-preview.jpg)
