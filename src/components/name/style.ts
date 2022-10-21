@@ -5,5 +5,5 @@ export const Name = styled.p`
     color: hsl(240, 38%, 20%);
     //margin-right: 0.5rem;
 
-    grid-area: info;
+    
 `
