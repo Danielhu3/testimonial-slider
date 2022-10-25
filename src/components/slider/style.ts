@@ -7,4 +7,11 @@ export const Slider = styled.div`
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 90%;
+
+    margin: 5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 `

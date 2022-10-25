@@ -9,6 +9,4 @@ export const Text = styled.p`
     font-size: 3.2rem;
 
     //margin-bottom: 2rem; 
-
-    grid-area: text;
 `

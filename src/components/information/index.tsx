@@ -1,10 +1,12 @@
 import React from 'react'
 import Button from '../button/';
 import ButtonGroup  from '../buttonGroup/';
+import LeftContent  from '../leftContent/';
 import Name  from '../name/';
 import Office  from '../office/';
 import Photo  from '../photo/';
 import ProfileInfo  from '../profileInfo/';
+import RightContent from '../rightContent/';
 import Text  from '../text/';
 import { Information } from './style'
 const testimonialList: List[] = [
@@ -52,16 +54,18 @@ const index = ({actualSlider, setActualSlider}: Props) => {
     if(typeof sliderId !== "undefined"){
       return (
         <Information>
-          <Text>{sliderId.text}</Text>
-          <ProfileInfo>
-            <Name>{sliderId.name}</Name>
-            <Office>{sliderId.office}</Office>
-          </ProfileInfo>
-          <Photo photo={sliderId.photo} />
-          <ButtonGroup>
-            <Button setActualSlider={setActualSlider} actualSlider={actualSlider} operation={'previous'} limit={testimonialList.length}/>
-            <Button setActualSlider={setActualSlider} actualSlider={actualSlider} operation={'next'} limit={testimonialList.length}/>
-          </ButtonGroup>
+          
+          <LeftContent>
+            <Text>{sliderId.text}</Text>
+            <ProfileInfo>
+              <Name>{sliderId.name}</Name>
+              <Office>{sliderId.office}</Office>
+            </ProfileInfo>
+          </LeftContent>
+          
+          <RightContent>
+            <Photo photo={sliderId.photo} />
+          </RightContent>
           
         </Information>
       )
@@ -72,5 +76,11 @@ const index = ({actualSlider, setActualSlider}: Props) => {
     )
   
 }
+/* 
+   <ButtonGroup>
+            <Button setActualSlider={setActualSlider} actualSlider={actualSlider} operation={'previous'} limit={testimonialList.length}/>
+            <Button setActualSlider={setActualSlider} actualSlider={actualSlider} operation={'next'} limit={testimonialList.length}/>
+          </ButtonGroup>
+*/
 
 export default index

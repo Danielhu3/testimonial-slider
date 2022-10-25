@@ -17,16 +17,12 @@ export default createGlobalStyle`
         background: white;
     }
     .App{
-        height: 100vh;
-       display: flex;
-       justify-content: center;
-       align-items: center;
+        min-height: 100vh;
+        display: flex;
 
-       background: url(${curve});
-       background-repeat: no-repeat;
-       background-position-y:100%;
-
-       padding: 5rem;
+        background: url(${curve});
+        background-repeat: no-repeat;
+        background-position-y:100%;
        
     }
 `
