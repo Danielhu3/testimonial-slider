@@ -8,5 +8,4 @@ export const Text = styled.p`
     letter-spacing: 0.25px;
     font-size: 3.2rem;
 
-    //margin-bottom: 2rem; 
 `
