@@ -1,15 +1,16 @@
 import React from 'react'
 import { Button } from './style'
-import image from '../../images/icon-prev.svg'
+import prev from '../../images/icon-prev.svg'
+import next from '../../images/icon-next.svg'
 
 type Props ={
   setActualSlider: React.Dispatch<React.SetStateAction<number>>;
   actualSlider: number;
   operation:string;
   limit: number;
-  icon: string;
+  
 }
-const index = ({setActualSlider, operation,limit, actualSlider, icon}: Props) => {
+const index = ({setActualSlider, operation,limit, actualSlider}: Props) => {
 
   function changeSlide(){
     if(operation === 'previous'){
@@ -34,7 +35,8 @@ const index = ({setActualSlider, operation,limit, actualSlider, icon}: Props) =>
 
   }
   return (
-    <Button onClick={changeSlide} icon={`../../images/icon-${icon}.svg`} style={{backgroundImage:`url(${image})`}}></Button>
+    <Button onClick={changeSlide} 
+    style={{backgroundImage:`url(${operation === 'next' ? next : prev})`}}></Button>
   )
 }
 

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-export const Button = styled.button.attrs((props: {icon: string}) => props)`
+export const Button = styled.button`
     background-repeat: no-repeat;
     background-position: center;
     padding:2rem;

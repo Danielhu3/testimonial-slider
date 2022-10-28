@@ -66,8 +66,8 @@ const index = ({actualSlider, setActualSlider}: Props) => {
           <RightContent>
             <Photo photo={sliderId.photo} />
             <ButtonGroup>
-              <Button setActualSlider={setActualSlider} actualSlider={actualSlider} operation={'previous'} limit={testimonialList.length} icon='prev'/>
-              <Button setActualSlider={setActualSlider} actualSlider={actualSlider} operation={'next'} limit={testimonialList.length} icon='next'/>
+              <Button setActualSlider={setActualSlider} actualSlider={actualSlider} operation={'previous'} limit={testimonialList.length} />
+              <Button setActualSlider={setActualSlider} actualSlider={actualSlider} operation={'next'} limit={testimonialList.length} />
             </ButtonGroup>
           </RightContent>
           
