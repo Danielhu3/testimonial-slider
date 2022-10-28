@@ -35,7 +35,7 @@ const index = ({setActualSlider, operation,limit, actualSlider}: Props) => {
 
   }
   return (
-    <Button onClick={changeSlide} 
+    <Button onClick={changeSlide} operation = {operation}
     style={{backgroundImage:`url(${operation === 'next' ? next : prev})`}}></Button>
   )
 }
