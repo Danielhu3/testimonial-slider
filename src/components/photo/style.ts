@@ -2,11 +2,10 @@ import styled from "styled-components";
 
 export const Photo = styled.img`
 
-    width: 40rem;
-    height: 40rem;
+    width: 100%;
+    height: 100%;
 
+    position: absolute;
 
-    //position: absolute;
-    //top: 3rem;
-
+   
 `
