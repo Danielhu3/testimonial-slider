@@ -7,6 +7,7 @@ export const ButtonGroup= styled.div`
    
     
     
+    
     // estilizar o right content, se não der tentar o de baixo
     // button group dentro de photo??
 `

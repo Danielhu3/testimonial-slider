@@ -12,4 +12,7 @@ export const RightContent = styled.div`
 
     position: relative;
 
+    right: 3rem;
+    z-index: 0;
+
 `
