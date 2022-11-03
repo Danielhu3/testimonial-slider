@@ -1,5 +1,4 @@
 import styled from "styled-components";
-
 export const Text = styled.p`
 
     color: hsl(240, 38%, 20%);
@@ -11,6 +10,8 @@ export const Text = styled.p`
 
     z-index: 1;
 
+
+    margin-top: 3rem;
     @media screen and (max-width:770px){
         text-align: center;
     }
