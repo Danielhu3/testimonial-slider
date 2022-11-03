@@ -22,6 +22,9 @@ export const RightContent = styled.div`
     background-size:contain;
     background-position: 100%;
 
+    @media screen and (max-width:770px){
+        justify-self: center;
+    }
 
 
 `

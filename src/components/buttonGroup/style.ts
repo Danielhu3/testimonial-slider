@@ -5,7 +5,6 @@ export const ButtonGroup= styled.div`
     top: 85%;
     left: 15%;
    
-    
-    
+
     
 `

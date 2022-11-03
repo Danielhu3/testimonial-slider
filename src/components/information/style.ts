@@ -7,7 +7,13 @@ export const Information = styled.div`
      grid-template-areas:  'left right';
                            
 
-     //position: relative;
+     @media screen and (max-width:770px){
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr 1fr;
+          grid-template-areas: 'right'
+                               'left';
+
+     }
 
 
 `

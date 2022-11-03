@@ -7,4 +7,8 @@ export const Slider = styled.div`
     align-items: center;
     justify-content: center;
 
+    @media screen and (max-width:770px){
+        margin: 5rem 2rem;
+    }
+
 `

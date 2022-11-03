@@ -11,4 +11,8 @@ export const Text = styled.p`
 
     z-index: 1;
 
+    @media screen and (max-width:770px){
+        text-align: center;
+    }
+
 `

@@ -10,5 +10,9 @@ export const LeftContent = styled.div`
 
     align-self: center;
 
+    @media screen and (max-width:770px){
+        justify-content: center;
+    }
+
     
 `
