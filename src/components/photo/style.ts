@@ -9,5 +9,7 @@ export const Photo = styled.img`
 
     left: 7%;
 
+    border-radius: 1rem;
+
    
 `
