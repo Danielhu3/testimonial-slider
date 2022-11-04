@@ -7,9 +7,10 @@ export const Photo = styled.img`
 
     position: absolute;
 
-    left: 7%;
+    left: 2%;
 
     border-radius: 1rem;
+
 
    
 `

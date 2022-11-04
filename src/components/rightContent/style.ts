@@ -15,6 +15,7 @@ export const RightContent = styled.div`
 
     right: 3rem;
     z-index: 0;
+    
 
     background: url(${background});
 
