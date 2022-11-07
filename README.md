@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/Danielhu3/testimonial-slider)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Live Site URL: [Netlify](https://splendid-chaja-b076bd.netlify.app/)
 
 ## My process
 

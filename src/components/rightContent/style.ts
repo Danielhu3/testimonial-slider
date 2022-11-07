@@ -5,8 +5,8 @@ export const RightContent = styled.div`
 
     grid-area: right;
     display: flex;
-    width: 40rem;
-    height: 40rem;
+    width: 60rem;
+    height: 60rem;
     
     justify-content: center;
     align-items: center;
